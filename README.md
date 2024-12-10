@@ -2,6 +2,8 @@
 
 termux-setup-storage 
 
+pkg install termux-api -y
+
 pkg update && pkg upgrade -y
 
 pkg install git -y 
