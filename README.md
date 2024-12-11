@@ -1,19 +1,20 @@
-# Vod
+# Cara Install dan Mengubah tampilan di Termux
 
-pkg update && pkg upgrade -y
+Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan VOD di Termux:
 
-pkg install wget -y
+## Langkah Instalasi
 
-pkg install curl -y
+1. **Update dan Upgrade Termux:**
 
-termux-setup-storage 
-
-pkg install git -y 
-
-git clone https://github.com/IKHSAN-PROJCT/Vod.git
-
-cd Vod 
-
-chmod +x * 
-
-./run.sh or bash run.sh
+   ```bash
+   pkg update && pkg upgrade -y
+   pkg install wget -y
+   
+   pkg install curl -y
+   pkg install git -y
+   termux-setup-storage
+   git clone https://github.com/IKHSAN-PROJCT/Vod.git
+   cd Vod
+   chmod +x *
+   git pull
+   ./run.sh
