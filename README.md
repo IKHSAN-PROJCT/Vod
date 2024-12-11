@@ -2,6 +2,8 @@
 
 pkg update && pkg upgrade -y
 
+pkg install wget -y
+
 pkg install nodejs -y
 
 termux-setup-storage 
@@ -16,4 +18,4 @@ cd Vod
 
 chmod +x * 
 
-./set
+./run.sh or bash run.sh
