@@ -4,11 +4,9 @@ pkg update && pkg upgrade -y
 
 pkg install wget -y
 
-pkg install nodejs -y
+pkg install curl -y
 
 termux-setup-storage 
-
-pkg install termux-api -y
 
 pkg install git -y 
 
