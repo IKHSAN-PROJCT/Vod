@@ -1,10 +1,12 @@
 # Vod
 
+pkg update && pkg upgrade -y
+
+pkg install nodejs -y
+
 termux-setup-storage 
 
 pkg install termux-api -y
-
-pkg update && pkg upgrade -y
 
 pkg install git -y 
 
@@ -14,4 +16,4 @@ cd Vod
 
 chmod +x * 
 
-./style.sh
+./set
