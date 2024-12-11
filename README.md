@@ -1,6 +1,6 @@
 # Cara Install dan Mengubah tampilan di Termux
 
-Ikuti langkah-langkah di bawah ini untuk menginstal dan menjalankan VOD di Termux:
+Ikuti langkah-langkah di bawah ini untuk menginstal dan mengubah tampilan di Termux:
 
 ## Langkah Instalasi
 
