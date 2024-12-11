@@ -9,7 +9,6 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan mengubah tampilan di Ter
    ```bash
    pkg update && pkg upgrade -y
    pkg install wget -y
-   
    pkg install curl -y
    pkg install git -y
    termux-setup-storage
