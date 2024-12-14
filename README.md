@@ -1,6 +1,6 @@
-# Cara Install dan Mengubah tampilan di Termux
+# Interaksi termux-api
 
-Ikuti langkah-langkah di bawah ini untuk menginstal dan mengubah tampilan di Termux:
+Ikuti langkah-langkah di bawah ini untuk install setup termux-api:
 
 ## Langkah Instalasi
 
@@ -15,5 +15,5 @@ Ikuti langkah-langkah di bawah ini untuk menginstal dan mengubah tampilan di Ter
    git clone https://github.com/IKHSAN-PROJCT/Vod.git
    cd Vod
    chmod +x *
-   git pull
-   ./run.sh
+   git pul
+   ./set
